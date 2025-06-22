@@ -1,5 +1,5 @@
-import React from 'react';
 import BillSplitter from '../components/BillSplitter';
+import HitCounter from '../components/HitCounter';
 
 const Index = () => {
   return (
@@ -10,6 +10,7 @@ const Index = () => {
       <div className="mt-4 text-white text-sm font-semibold z-10">
         Like this? <a href="https://buymeacoffee.com/justinyu" target="_blank" rel="noopener noreferrer" className="underline hover:text-yellow-300 transition-colors">Donate</a>
       </div>
+      <HitCounter />
     </div>
   );
 };
