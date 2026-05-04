@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "bill-splitter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name=bill-splitter"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",

@@ -1,0 +1,6 @@
+name = "bill-splitter"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
+
+[env.production]
+account_id = "9352cf03e38b96ca848d2b3a55819885" 
